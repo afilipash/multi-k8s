@@ -3,6 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: database-persistent-volume-claim
 spec:
+# uncomment for local minikube cluster
 #  storageClassName: manual
   accessModes:
     - ReadWriteOnce
